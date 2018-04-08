@@ -1,0 +1,27 @@
+{
+	"db": {
+		"username": "chatter",
+		"password": "chatter",
+		"host": "ds237979.mlab.com",
+		"port": "37979",
+		"name": "chatter"
+	},
+	"sessionSecret": "hd73kfgs63kfy63isnf63k",
+	"facebook": {
+		"clientID": "129524714470845",
+		"clientSecret": "a7f97eb836a630eb548468e75ac27954",
+		"callbackURL": "/auth/facebook/callback",
+		"profileFields": ["id", "displayName", "photos"]
+	},
+	"twitter": {
+		"consumerKey": "0Yt4v9f0JKZDCidsXqkN1vTOW",
+		"consumerSecret": "m4qYdZly6EqrKsraxD5btR07fBOkEl6vdDcKJWa81Px8BUpCXn",
+		"callbackURL": "/auth/twitter/callback",
+		"profileFields": ["id", "displayName", "photos"]
+	},
+	"redis": {
+		"host": "127.0.0.1",
+		"port": 6379,
+		"password": ""
+	}
+}
